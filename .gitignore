@@ -1,0 +1,49 @@
+*~
+*.py[cod]
+.Python
+.settings
+node_modules
+note
+.DS_Store
+
+# C extensions
+*.so
+
+# Packages
+*.db
+.idea
+data/db
+data/mongo*
+data/local*
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# DJANGO temps
+/server/static/*
+!/server/static/cache/.gitkeep
+!/server/static/media/.gitkeep
+/server/raas/local_settings.py
+
+match_engine/simitems/sample
+match_engine/test
+
+# test results
+data/*/*/candidate/
+data/*/*/domain_index/
+data/*/*/domain_matches/
+data/*/*/domain_tvrec/
+data/*/*/json/
